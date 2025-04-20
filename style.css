@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column; /* stack title then section */
+    gap: 1rem;
+  }
+
+  .card {
+    background-color: #fff;                   /* white background */
+    padding: 1.5rem;                          /* space inside */
+    border-radius: 8px;                       /* rounded corners */
+    box-shadow: 
+      0 2px 4px rgba(0, 0, 0, 0.1),           /* subtle top shadow */
+      0 8px 16px rgba(0, 0, 0, 0.1);          /* deeper bottom shadow */
+    width: 600px;                       /* optional width cap */
+    margin: 0 auto;                           /* center in form */
+  }
+  
+  
+  
+  .fields {
+    display: flex;
+    flex-wrap: wrap;       /* wrap rows to next line */
+    gap: 1rem;
+  }
+  
+  .field {
+    flex: 0 1 200px;       /* shrink/grow to fit ~200px each */
+    display: flex;
+    flex-direction: column;/* label above input */
+  }
