@@ -1,3 +1,20 @@
+body{ 
+  display: flex;
+  flex-direction: row;
+}
+
+.image-section{ 
+  width: 70%;
+  height: 100vh;
+  display: flex;
+}
+
+
+.form-section{
+  display:flex;
+  flex-direction: column;
+}
+
 form {
     display: flex;
     flex-direction: column; /* stack title then section */
@@ -11,7 +28,7 @@ form {
     box-shadow: 
       0 2px 4px rgba(0, 0, 0, 0.1),           /* subtle top shadow */
       0 8px 16px rgba(0, 0, 0, 0.1);          /* deeper bottom shadow */
-    width: 600px;                       /* optional width cap */
+    width: 100vw;                       /* optional width cap */
     margin: 0 auto;                           /* center in form */
   }
   
