@@ -42,6 +42,7 @@ button{
 form {
     display: flex;
     flex-direction: column; /* stack title then section */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     gap: 1rem;
   }
 
@@ -62,6 +63,7 @@ form {
     display: flex;
     flex-wrap: wrap;       
     gap: 1rem;
+    margin-left: 10px;
   }
   
   .field {
@@ -74,6 +76,8 @@ form {
   .title-right{
     margin: 100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-style: bold;
   }
 
   .login-link {
